@@ -1,1 +1,5 @@
-"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("react/jsx-runtime"),o=()=>e.jsx("div",{children:"Hello from MyComponent!"});exports.MyComponent=o;
+import { jsx as o } from "react/jsx-runtime";
+const r = () => /* @__PURE__ */ o("div", { children: "Hello from MyComponent!" });
+export {
+  r as MyComponent
+};
