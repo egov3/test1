@@ -1,43 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js
+node_modules/
+dist/
+.yarn/
+.yarn-cache/
+.pnp.*
+.cache/
+.eslintcache
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-
-# testing
-/coverage/lcov-report
-/coverage/coverage-final.json
-/coverage/clover.xml
-
-# next.js
-/.next/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
+# OS
+.DS_Store
+Thumbs.db
 
-# vercel
-.vercel
-
-# typescript
+# TypeScript
 *.tsbuildinfo
 
-# vscode settings
-.vscode
+# Editor configs
+.vscode/
+.idea/
+*.sw?
 
-out
+# Test coverage
+coverage/
 
-*storybook.log
+# Build tools
+*.log
+*.lock
+
+# Lint/styling
+.stylelintcache
