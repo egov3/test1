@@ -1,0 +1,21 @@
+@import "~styles/colors.css";
+
+.accordionBtn {
+  border-radius: inherit;
+  width: 100%;
+  text-align: left;
+
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordionContent {
+  max-height: 1000px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordionContent--hidden {
+  max-height: 0;
+}

@@ -10,7 +10,24 @@
     "allowSyntheticDefaultImports": true,
     "outDir": "dist",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "react": [
+        "./node_modules/@types/react"
+      ],
+      "~components": [
+        "./src/components/index"
+      ],
+      "~svg": [
+        "./src/svg/index"
+      ],
+      "~styles/*": [
+        "./src/styles/*"
+      ],
+      "~utils/*": [
+        "./src/utils/*"
+      ]
+    }
   },
   "include": [
     "src",

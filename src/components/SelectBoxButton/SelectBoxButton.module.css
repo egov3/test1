@@ -1,0 +1,26 @@
+@import "~styles/colors.css";
+
+.selectContainer {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--surface-surface-1);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.label {
+  display: flex;
+  color: var(--text-secondary);
+}
+
+.errorLabel {
+  display: flex;
+  color: var(--icon-error-color);
+}
+
+.selectText {
+  display: flex;
+  color: var(--text-primary);
+}

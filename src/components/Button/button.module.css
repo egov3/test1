@@ -1,0 +1,105 @@
+@import "~styles/colors.css";
+
+.button {
+  border: none;
+  transition: background-color 0.2s ease;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-default {
+  color: var(--default-white-color);
+  background-color: var(--default-primary-accent);
+}
+
+.btn-default--disabled {
+  color: var(--text-disabled-color);
+  background-color: var(--button-disabled-default-color);
+}
+
+.btn-tinted {
+  color: var(--text-accent);
+  background-color: var(--button-tinted-default-color);
+}
+
+.btn-tinted--disabled {
+  color: var(--text-disabled-accent-color);
+  background-color: var(--button-tinted-default-color);
+}
+
+.btn-secondary {
+  color: var(--text-primary);
+  background-color: var(--surface-surface-3-color);
+}
+
+.btn-secondary--disabled {
+  color: var(--text-secondary);
+  background-color: var(--surface-surface-3-color);
+}
+
+.btn-default:hover {
+  background-color: var(--button-primary-on-hover-color);
+}
+
+.btn-tinted:hover {
+  background-color: var(--button-tinted-on-hover-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--button-secondary-on-hover);
+}
+
+.btn--mini {
+  gap: 4px;
+  padding: 6px 12px;
+}
+
+.btn--small {
+  gap: 8px;
+  padding: 8px 16px;
+}
+
+.btn--medium {
+  gap: 8px;
+  padding: 8px 20px;
+}
+
+.btn--large {
+  gap: 8px;
+  padding: 14px 24px;
+}
+
+.btn-square--mini {
+  border-radius: 4px;
+}
+
+.btn-square--small {
+  border-radius: 6px;
+}
+
+.btn-square--medium {
+  border-radius: 10px;
+}
+
+.btn-square--large {
+  border-radius: 12px;
+}
+
+.btn-rounded--mini {
+  border-radius: 32px;
+}
+
+.btn-rounded--small {
+  border-radius: 32px;
+}
+
+.btn-rounded--medium {
+  border-radius: 32px;
+}
+
+.btn-rounded--large {
+  border-radius: 40px;
+}
